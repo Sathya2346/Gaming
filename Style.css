@@ -1,0 +1,465 @@
+p{
+    color: #787878;
+}
+a{
+    text-decoration: none;
+}
+@font-face {
+    font-family: 'FontAwesome';
+    src: url('../fonts/fontawesome-webfont.eot?v=4.7.0');
+    src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.7.0') format('embedded-opentype'),url('../fonts/fontawesome-webfont.woff2?v=4.7.0') format('woff2'),url('../fonts/fontawesome-webfont.woff?v=4.7.0') format('woff'),url('../fonts/fontawesome-webfont.ttf?v=4.7.0') format('truetype'),url('../fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+.fa{
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+.fa-lg {
+    font-size: 1.33333333em;
+    line-height: .75em;
+    vertical-align: -15%
+}
+@media screen and (min-width:1020px) {
+.gamix{
+    display: none;
+}
+.container{
+    padding: 20px;
+}
+nav{
+    background-color: #191919;
+}
+.container>a{
+    text-decoration: none;
+    color: white;
+}
+.container:first-child{
+    margin-left: 100px;
+}
+.last-nav-a{
+    margin-right: 100px;
+}
+.dot{
+    color: #E50914;
+}
+.span-icon{
+    margin-left: 50px;
+}
+Sub{
+    background-color: #E50914;
+    border-radius: 15px;
+    padding: 5px;
+    width: 20px;
+    height: 1vh;
+}
+.Home{
+    background-color: #191919;
+    width: 100%;
+    height: 130vh;
+    color: white;
+}
+.Home-Content{
+    display: flex;
+}
+.Home-Content1{
+    width: 50%;
+    margin-left: 40px;
+}
+.Home-Content2{
+    width: 50%;
+}
+.red-circle1{
+    height: 8vh;
+    width: 50px;
+    background-color: #E50914;
+    border-radius: 30px;
+}
+.red-circle2{
+    margin-top: 20px;
+    height: 33vh;
+    width: 200px;
+    background-color: #E50914;
+    border-radius: 100px;
+}
+.red-circle{
+    display: flex;
+    position: absolute;
+}
+.Home-Content1-img{
+    display: flex;
+}
+.Home-Content2-a{
+    margin-top: 300px;
+    padding: 20px;
+    background-color: white;
+    height: 16vh;
+    border-radius: 50px;
+    margin-left: 20px;
+    
+}
+.Home-Content2-icon{
+    width: 50px;
+    height: 8vh;
+}
+.Home-Content1-img>img{
+    position: relative;
+    width: 600px;
+    margin-left: px;
+}
+h1{
+    font-size: 60px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 5px;
+}
+.Home-Content2{
+    margin-left: 30px;
+    margin-top: 250px;
+}
+a>button{
+    color: white;
+    background-color: #E50914;
+    border: 1px solid #E50914;
+    width: 150px;
+    height: 8vh;
+    border-radius: 25px;
+}
+.Game-Collection{
+    background-color: #141414;
+    height: 90vh;
+    display: flex;
+    padding: 5%;
+    color: white;
+    padding-bottom: 0;
+    border-bottom: 2px solid #191919;
+}
+.Game-Collection1{
+    width: 30%;
+    margin-top: 50px;
+}
+.Game-Collection2{
+    width: 65%;
+    margin-left: 30px;
+}
+.card-body{
+    text-align: center;
+    background-color: #141414;
+    color: white;
+}
+.About{
+    color: white;
+    background-color:#191919;
+    height: 220vh;
+    padding-top: 10px;
+}
+.About-1{
+    display: flex;
+    margin: 5%;
+}
+.About-1-Content1{
+    width: 40%;
+}
+.About-1-Content2{
+    width: 60%;
+    padding:0px 0px 0px 30px;
+}
+.About>h1{
+    margin-left: 50px;
+    padding-top: 30px;
+    border-bottom:5px solid #E50914;
+    width: 35px;
+}
+.About-1-Content1>img{
+    width: 35%;
+}
+.About-1-Content1>img{
+    position: absolute;
+}
+.About-1-Content1-1>div{
+    position: relative;
+    text-align: center;
+    background-color: #E50914;
+    width: 150px;
+    padding: 10px;
+    margin-top: 425px;
+    margin-left: 295px;
+}
+.community{
+    padding: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.community1{
+    background-color: #141414;
+    height: 30vh;
+    width: 270px;
+    padding: 40px;
+}
+.community2{
+    background-color: #141414;
+    height: 30vh;
+    width: 270px;
+    padding: 40px;
+}
+.community3{
+    background-color: #141414;
+    height: 30vh;
+    width: 250px;
+    padding: 40px;
+}
+.community4{
+    background-color: #141414;
+    height: 30vh;
+    width: 220px;
+    padding: 40px;
+}
+.Matches{
+    background-color: #141414;
+    padding-top: 50px;
+    margin-top: 40px;
+    height:310vh;
+}
+.Matches>h1{
+    margin-left: 50px;
+    margin-top: 60px;
+    border-bottom:5px solid #E50914;
+    width: 40px;
+}
+.Match-Content{
+    padding: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.card-body2{
+    background-color: #191919;
+    color: white;
+    border-radius: 5px;
+    padding: 30px;  
+}
+.Match-Content1{
+    border: 1px solid #141414;
+}
+.card-body2:hover{
+    background-color: #E50914;
+}
+.card-body2:hover p{
+    color: white;
+}
+.pre-matches>p{
+    letter-spacing: 5px;
+    text-align: center;
+}
+.pre-matches>.pre-match-img1{
+    margin: 50px;
+    width: 90%;
+}
+.pre-matches>.pre-match-img2{
+    margin: 50px;
+    width: 92%;
+    border: 8px solid #191919;
+}
+.pre-match-img3{
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+.Players{
+    height: 160vh;
+    background-color: #191919;
+}
+.Players>h1{
+    margin-left: 50px;
+    padding-top: 60px;
+    border-bottom:5px solid #E50914;
+    width: 35px;   
+}
+.row10{
+    padding: 50px;
+}
+.card-titleP{
+    background-color: #E50914;
+}
+.Player-Content{
+    display: flex;
+    padding: 80px;
+    
+}
+.Player-Content2{
+    text-align: center;
+    margin-left: 200px;
+}
+.Player-Content3{
+    text-align: center;
+    margin-left: 100px;
+}
+.Product{
+    height: 200vh;
+    background-color: #141414;
+}
+.Product>h1{
+    margin-left: 50px;
+    padding-top: 60px;
+    border-bottom:5px solid #E50914;
+    width: 35px;   
+}
+.Product-Content{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px;
+}
+.Product-1>img{
+    width: 200px;
+}
+.Product-1{
+    text-align: center;
+    background-color: #191919;
+    padding: 20px;
+    height: 60vh;
+}
+.Product-2>img{
+    width: 200px;
+}
+.Product-2{
+    text-align: center;
+    background-color: #191919;
+    padding: 20px;
+    height: 60vh;
+}
+.Product-3>img{
+    width: 200px;
+}
+.Product-3{
+    text-align: center;
+    background-color: #191919;
+    padding: 20px;
+    height: 60vh;
+}
+.Product-Content2{
+    margin: 80px;
+    background-color: #191919;
+    display: flex;
+}
+.Product-Content2-1{
+    padding: 80px;
+    width: 70%;
+}
+.Product-Content2-2>img{
+    height: 70vh;
+}
+.Blogs{
+    background-color: #141414;
+    height: 240vh;
+}
+.Blogs>h1{
+    margin-left: 50px;
+    padding-top: 60px;
+    border-bottom:5px solid #E50914;
+    width: 35px;
+}
+.Blog-content{
+    padding: 50px;
+}
+.card-bodyp{
+    background-color: #191919;
+    padding: 20px;
+}
+.cardp1{
+    filter: grayscale(10);
+}
+.cardp1:hover{
+    filter: grayscale(0);
+}
+.cardp2{
+    filter: grayscale(0);
+}
+.cardp2:hover{
+    filter: grayscale(10);
+}
+.cardp3{
+    filter: grayscale(10);
+}
+.cardp3:hover{
+    filter: grayscale(0);
+}
+.Subscribe{
+    background-image: url('subscribe1.jpg');
+    background-repeat: no-repeat;
+    height: 60vh;
+    background-size: 100% 45vh;
+    filter: grayscale(10);
+    margin-top: 30px;
+    display: flex;
+    padding: 80px;
+    padding-right: 300px;
+}
+.Subscribe>a>button{
+    background-color: #FFFFFF;
+    color: #4A4A4A;
+    margin-left: 50px;
+}
+.footer{
+    display: flex;
+    border-bottom: 2px solid #191919;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.footer1{
+    width: 40%;
+    margin-left: 80px;
+}
+.footer1>p>span{
+    background-color: #262525;
+    margin-left: 10px;
+    padding: 10px;
+    border-radius: 30px;
+    padding-top: 20px;
+}
+.footer1>p{
+    margin-top: 20px;
+}
+.footer1>span:hover{
+    background-color: #E50914;
+}
+.footer2{
+    width: 18%;
+}
+.footer3{
+    width: 18%;
+}
+.footer4{
+    width: 18%;
+}
+.footer2>p>a:hover {
+    margin-left: 5px;
+    color: #E50914;
+}
+.footer3>p>a:hover {
+    margin-left: 5px;
+    color: #E50914;
+}
+.footer4>p>a:hover {
+    margin-left: 5px;
+    color: #E50914;
+}
+.footer2>p>a{
+    color: #787878;
+}
+.footer3>p>a{
+    color: #787878;
+}
+.footer4>p>a{
+    color: #787878;
+}
+.footer-content{
+    display: flex;
+    padding: 50px;
+    margin-left: 80px;
+}
+.footer-content :last-child{
+    margin-left: 600px;
+}
+}
